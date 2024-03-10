@@ -1,5 +1,14 @@
 @import "../../style/variables";
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .background-top{
   position: absolute;
   top: 0;
@@ -18,20 +27,27 @@
   color: $secondary-color;
 
   &-header{
-    margin-top: calc(100px + 5vmin);
+    margin-top: calc(150px + 5vmin);
+    margin-bottom: calc(150px + 5vmin);
     display: flex;
     text-align: left;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     @media screen and (max-width: 1024px){
       flex-direction: column-reverse;
     }
+    &__buttons{
+      width: 100%;
+      display: flex;
+      gap: 20px;
+    }
   }
 
   h1{
-    margin: 0;
-    font-size: calc(10px + 9vmin);
-    line-height: calc(10px + 8vmin);
+    margin: 0 0 30px 0;
+    font-size: calc(26px + 9vmin);
+    line-height: calc(26px + 8vmin);
   }
 }
 
@@ -49,19 +65,51 @@
 
 }
 
-
-.profile-picture{
-  height: 300px;
- // height: calc(300px - 1vmin);
-  border: 10px solid $primary-color ;
-  border-radius: 300px;
-  margin-right: auto;
+.profile-container{
+  position: relative;
+  margin-right: 80px;
   margin-left: auto;
+  @media screen and (max-width: 1024px){
+    margin-right: auto;
+  }
+}
+.profile-picture{
+  height: 240px;
+ // height: calc(300px - 1vmin);
+  border: 8px solid $primary-color ;
+  border-radius: 300px;
+
   @media screen and (max-width: 1024px){
     height: 250px;
     border: 5px solid $primary-color;
   }
 }
+
+.profile-available{
+  position: absolute;
+  z-index: 10;
+  top: -60px;
+  left: -50px;
+  //border: 2px solid $primary-color;
+
+  transform: translate(-50%, -50%); /* Centrer parfaitement */
+  height: 380px;
+  animation: rotate 10s linear infinite;
+}
+
+.highlight{
+  color: $tertiary-color;
+  font-weight: 900;
+  &::before{
+    content: '{ ';
+    color: $primary-color;
+  }
+  &::after{
+    content: ' }';
+    color: $primary-color;
+  }
+}
+
 
 
 

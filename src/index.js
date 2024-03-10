@@ -4,15 +4,30 @@ import './style/index.scss';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+let theme = createTheme({
+    palette: {
+        kaki: {
+            main: '#678d7c', // Définition de la couleur kaki
+        },
+    },
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Router>
-          <Routes>
-              <Route path={'/'} element={<Home />} />
-          </Routes>
-      </Router>
+      <ThemeProvider theme={theme}>
+          <Router>
+              <Routes>
+                  <Route path={'/'} element={<Home />} />
+              </Routes>
+          </Router>
+          <Footer />
+      </ThemeProvider>
+
+
   </React.StrictMode>
 );
 
