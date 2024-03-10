@@ -23,6 +23,9 @@
     text-align: left;
     justify-content: space-between;
     width: 100%;
+    @media screen and (max-width: 1024px){
+      flex-direction: column-reverse;
+    }
   }
 
   h1{
@@ -54,6 +57,10 @@
   border-radius: 300px;
   margin-right: auto;
   margin-left: auto;
+  @media screen and (max-width: 1024px){
+    height: 250px;
+    border: 5px solid $primary-color;
+  }
 }
 
 

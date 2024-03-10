@@ -22,7 +22,7 @@ function Home() {
 
                 </div>
 
-                <img className={"profile-picture"} src={profilePicture} alt={"profile picture"}/>
+                <img className={"profile-picture"} src={profilePicture} alt={"profile"}/>
             </header>
             <section className="Home-about">
                 {paragraphs.map((paragraph, index) => {
