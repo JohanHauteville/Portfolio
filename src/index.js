@@ -12,6 +12,9 @@ let theme = createTheme({
         kaki: {
             main: '#678d7c', // Définition de la couleur kaki
         },
+        kakiLight: {
+            main: '#addcc7', // Définition de la couleur kaki
+        },
     },
 });
 

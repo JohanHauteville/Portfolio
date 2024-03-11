@@ -6,6 +6,7 @@ import profilePicture from '../../assets/img/profile.jpg'
 import availablePicture from '../../assets/img/available.svg'
 import {Button} from "@mui/material";
 import { Folder, Face6 } from "@mui/icons-material";
+import Experiences from "../../components/Experiences";
 
 
 
@@ -39,12 +40,14 @@ function Home() {
 
             </header>
             <section id={"about-me"} className="Home-about">
+                <h2>À propos de moi</h2>
                 <p>
                     {paragraphs.map((paragraph, index) => {
                         return <span key={index + "com"}>{paragraph}<br/><br/></span>
                     })}
                 </p>
             </section>
+            <Experiences />
         </div>
     );
 }
