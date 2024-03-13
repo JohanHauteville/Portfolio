@@ -1,0 +1,29 @@
+@import "../../style/variables";
+
+.skills{
+  margin-top: 50px;
+  position: relative;
+  width: 100vw;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  h2{
+    position: absolute;
+    top: -60px;
+    text-align: left;
+  }
+  h3{
+    font-family: "Poppins","sans-serif";
+    text-align: left;
+  }
+  ul{
+    font-family: "Poppins","sans-serif";
+    list-style: none;
+    margin-bottom: 50px;
+    padding-left: 0;
+    li{
+      text-align: left;
+    }
+  }
+}

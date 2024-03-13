@@ -26,8 +26,9 @@ root.render(
               <Routes>
                   <Route path={'/'} element={<Home />} />
               </Routes>
+              <Footer />
           </Router>
-          <Footer />
+
       </ThemeProvider>
 
 
