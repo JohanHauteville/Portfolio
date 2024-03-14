@@ -1,0 +1,11 @@
+.up-button {
+  position: sticky;
+  top: 85%;
+  z-index: 11;
+  width: 100vw;
+  height: 30px;
+  div{
+    position: absolute;
+    right: 10px;
+  }
+}

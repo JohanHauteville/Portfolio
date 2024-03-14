@@ -1,3 +1,51 @@
 {
-  "story": "Enthousiaste du développement technologique depuis l'obtention de mon diplôme de Brevet de Technicien Supérieur en informatique et réseau, j'ai rapidement réalisé que ma passion pour l'innovation nécessitait une composante créative plus poussée. C'est pourquoi je me suis lancé dans une formation en Animation 3D/Graphisme pour combler cette lacune.\nFort de cette double compétence, j'ai co-fondé un petit studio d'application mobile, où j'ai pu fusionner ma vision technique avec une approche artistique. Cette expérience m'a permis de comprendre l'importance de l'interface utilisateur dans le succès d'une application et a aiguisé mon intérêt pour le développement Front End.\nPar la suite, j'ai élargi mes horizons en devenant graphiste freelance, travaillant sur une variété de projets allant de la conception d'interfaces utilisateur à la création de contenus visuels percutants. Cependant, mon esprit entrepreneurial m'a conduit à une nouvelle aventure : la co-fondation d'une biscuiterie spécialisée dans la personnalisation, offrant la possibilité de mettre des logos sur des biscuits et expédiant dans toute la France. Dans ce rôle, j'étais responsable de la création, de la gestion et de l'amélioration du site de e-commerce, où j'ai découvert à nouveau le plaisir du codage.\nC'est cette redécouverte qui m'a incité à mettre à niveau mes compétences en programmation, avec une focalisation particulière sur le développement Front End, notamment en me spécialisant dans React. Ma trajectoire professionnelle éclectique m'a apporté une perspective unique, alliant créativité et rigueur technique, que je suis impatient de mettre au service de projets innovants au sein de votre équipe."
+  "story": "Enthousiaste du développement technologique depuis l'obtention de mon diplôme de Brevet de Technicien Supérieur en informatique et réseau, j'ai rapidement réalisé que ma passion pour l'innovation nécessitait une composante créative plus poussée. C'est pourquoi je me suis lancé dans une formation en Animation 3D/Graphisme pour combler cette lacune.\nFort de cette double compétence, j'ai co-fondé un petit studio d'application mobile, où j'ai pu fusionner ma vision technique avec une approche artistique. Cette expérience m'a permis de comprendre l'importance de l'interface utilisateur dans le succès d'une application et a aiguisé mon intérêt pour le développement Front End.\nPar la suite, j'ai élargi mes horizons en devenant graphiste freelance, travaillant sur une variété de projets allant de la conception d'interfaces utilisateur à la création de contenus visuels percutants. Cependant, mon esprit entrepreneurial m'a conduit à une nouvelle aventure : la co-fondation d'une biscuiterie spécialisée dans la personnalisation, offrant la possibilité de mettre des logos sur des biscuits et expédiant dans toute la France. Dans ce rôle, j'étais responsable de la création, de la gestion et de l'amélioration du site de e-commerce, où j'ai découvert à nouveau le plaisir du codage.\nC'est cette redécouverte qui m'a incité à mettre à niveau mes compétences en programmation, avec une focalisation particulière sur le développement Front End, notamment en me spécialisant dans React. Ma trajectoire professionnelle éclectique m'a apporté une perspective unique, alliant créativité et rigueur technique, que je suis impatient de mettre au service de projets innovants au sein de votre équipe.",
+  "projects": [
+    {
+      "id": 6,
+      "name": "Social Network",
+      "picture":"../assets/img/webSites/portfolio.png" ,
+      "description": "Projet en cours de construction...'"
+    },
+    {
+      "id": 1,
+      "name": "Frontend Developper portfolio",
+      "picture":"../assets/img/webSites/portfolio.png" ,
+      "description": "Création de mon portfolio",
+      "github": "https://github.com/JohanHauteville/react-table-component",
+      "externalLink": "https://jhauteville.netlify.app/"
+    },
+    {
+      "id": 2,
+      "name": "Easy react table component",
+      "picture":"../assets/img/webSites/easy-react-table-component.png" ,
+      "description": "Création d'une bibliothèque React : Table",
+      "github": "https://github.com/JohanHauteville/react-table-component",
+      "npmLink": "https://www.npmjs.com/package/easy-react-table-component"
+    },
+    {
+      "id": 3,
+      "name": "Wealth Health",
+      "picture":"../assets/img/webSites/WealthHealth.png" ,
+      "description": "Projet 14: Refonte d'un site RH JQuery vers React",
+      "github": "https://github.com/JohanHauteville/WealthHealth",
+      "externalLink": "https://wealthhealth-jhauteville.netlify.app/"
+    },
+    {
+      "id": 4,
+      "name": "Argent Bank",
+      "picture":"./assets/img/webSites/argent-bank.png" ,
+      "description": "Projet 13: Utilisez une API pour un compte utilisateur bancaire avec React.",
+      "github": "https://github.com/JohanHauteville/Argent-Bank",
+      "externalLink": "https://argentbank-jhauteville.netlify.app"
+    },
+    {
+      "id": 5,
+      "name": "SportSee",
+      "picture":"./assets/img/webSites/sportsee.png" ,
+      "description": "Projet 12: Refonte d'un site RH JQuery en React",
+      "github": "https://github.com/JohanHauteville/sportsee",
+      "externalLink": "https://sportsee-jhauteville.netlify.app"
+    }
+  ]
 }

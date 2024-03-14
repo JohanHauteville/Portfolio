@@ -17,7 +17,7 @@ function Header() {
                 className={"highlight"}>React</span>.
             </p>
             <div className={"header__buttons"}>
-                <Button color="kaki" variant="outlined" startIcon={<Folder/>}><strong>See Projects</strong></Button>
+                <Button href={"#projects"} color="kaki" variant="outlined" startIcon={<Folder/>}><strong>See Projects</strong></Button>
                 <Button color="kaki" variant="outlined" startIcon={<Face6/>}><strong>About me</strong></Button>
             </div>
         </div>

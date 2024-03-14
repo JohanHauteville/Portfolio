@@ -8,22 +8,47 @@
   display: flex;
   justify-content: space-around;
   color: #fff;
+
+  &-grid{
+    display: grid;
+    //grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat( 4, minmax(250px, 1fr) );
+    //margin-left: auto ;
+    @media screen and (max-width: 1100px){
+      grid-template-columns: 1fr 1fr;
+      width: 90%;
+    }
+    @media screen and (max-width: 500px){
+      grid-template-columns: 1fr;
+      width: 90%;
+    }
+
+  }
+
+  article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   h2{
     position: absolute;
     top: -60px;
-    text-align: left;
+    text-align: center;
   }
   h3{
     font-family: "Poppins","sans-serif";
     text-align: left;
+
   }
   ul{
     font-family: "Poppins","sans-serif";
     list-style: none;
     margin-bottom: 50px;
+    margin-top: 0;
     padding-left: 0;
     li{
-      text-align: left;
+      text-align: center;
     }
   }
 }
