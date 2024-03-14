@@ -11,7 +11,7 @@ function ProjectCard({project}){
                 title={project.name}
             />
             <CardContent>
-                <Typography gutterBottom color="kaki" variant="h5" component="div" align={"left"} sx={{ fontWeight: 500, fontFamily: "Poppins"}}>
+                <Typography gutterBottom color="kaki" variant="h5" component="div" align={"left"} sx={{ fontWeight: 500, fontFamily: "Poppins", color: "#678d7c"}}>
                     {project.name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align={"left"} noWrap={true} sx={{ fontWeight: 300, fontFamily: "Poppins"}}>

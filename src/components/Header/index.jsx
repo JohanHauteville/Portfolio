@@ -26,7 +26,7 @@ function Header() {
             <img className={"profile-available"} src={availablePicture} alt={"available"}/>
         </div>
         <div className={"header__next-button"}>
-            <ExpandMoreRounded color={"kaki"}   />
+            <ExpandMoreRounded color={"kaki"} classes={{ root: "expand-icon"}} />
         </div>
     </header>
 }
