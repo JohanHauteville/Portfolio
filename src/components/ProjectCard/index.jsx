@@ -24,8 +24,10 @@ function ProjectCard({project}){
                 ):(
                     <Button color={"kaki"} disabled={true} size="small" href={project.github} sx={{ fontWeight: 500, fontFamily: "Poppins"}}>GitHub</Button>
                 )}
-                {project.externalLink && (
+                {project.externalLink ? (
                     <Button color={"kaki"} size="small" href={project.externalLink} sx={{ fontWeight: 500, fontFamily: "Poppins"}}>View Project</Button>
+                ):(
+                    <Button color={"kaki"} disabled={true} size="small" href={project.externalLink} sx={{ fontWeight: 500, fontFamily: "Poppins"}}>View Project</Button>
                 )}
                 {project.npmLink && (
                     <Button color={"kaki"} size="small" href={project.npmLink} sx={{ fontWeight: 500, fontFamily: "Poppins"}}>View on NPM</Button>

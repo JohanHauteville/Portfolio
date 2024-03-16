@@ -4,7 +4,7 @@
     {
       "id": 6,
       "name": "Social Network",
-      "picture":"../assets/img/webSites/portfolio.png" ,
+      "picture":"../assets/img/webSites/under_construction_02.jpeg" ,
       "description": "Projet en cours de construction...'"
     },
     {
@@ -43,9 +43,9 @@
       "id": 5,
       "name": "SportSee",
       "picture":"./assets/img/webSites/sportsee.png" ,
-      "description": "Projet 12: Refonte d'un site RH JQuery en React",
-      "github": "https://github.com/JohanHauteville/sportsee",
-      "externalLink": "https://sportsee-jhauteville.netlify.app"
+      "description": "Projet 12: Développer un tableau de bord d'analytics avec React.",
+      "github": "https://github.com/JohanHauteville/sportsee"
+
     }
   ]
 }

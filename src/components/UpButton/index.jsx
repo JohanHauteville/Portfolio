@@ -6,7 +6,7 @@ function UpButton(){
     return (
         <div className={"up-button"}>
             <div>
-                <Fab color="kaki" aria-label="add" href={"#Home"}>
+                <Fab color="kaki" aria-label="add" href={"#root"}>
                     <KeyboardArrowUpRounded sx={{color: "#fff"}}/>
                 </Fab>
             </div>
