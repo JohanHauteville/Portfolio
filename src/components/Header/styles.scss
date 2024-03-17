@@ -1,183 +1,24 @@
-@import "../../style/variables";
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@keyframes up-and-down {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(15px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes shaking-hand {
-  0% {
-    transform: rotate(0deg);
-  }
-  5%{
-    transform: rotate(30deg);
-  }
-  10%{
-    transform: rotate(-30deg);
-  }
-  15% {
-    transform: rotate(30deg);
-  }
-  20%{
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.background-top{
-  position: absolute;
-  top: 0;
-  z-index: -1;
-}
-
-.Home {
-  text-align: center;
-  padding: 0 calc(10px + 8vmin);
-  min-height: 100vh;
+header{
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  //max-height: 800px;
   justify-content: center;
-  font-size: calc(10px + 1vmin);
-  color: $secondary-color;
-  @media screen and (max-width: 500px){
-    padding: 0 calc(10px + 4vmin);
-  }
-
-
 }
-.header{
-  height: 100vh;
-  position: relative;
-  display: flex;
-  text-align: left;
-  align-items: center;
-  justify-content: space-between;
+.background-top{
+  max-height: 120px;
   width: 100%;
-
-  @media screen and (max-width: 1100px){
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-top: 70px;
-    height: calc( 100vh - 70px) ;
-    gap: 30px;
+  //position: absolute;
+  //top: 0;
+  z-index: -1;
+  overflow: hidden;
+  //position: absolute;
+  /*display: flex;
+  justify-content: center;*/
+  @media screen and (max-width: 500px){
+    max-height: 120px;
   }
-
-  @media screen and (max-width: 560px){
-    margin-top: 0;
-    height: 100svh;
-    gap: 30px;
-  }
-
-  &__buttons{
-    width: 100%;
-    display: flex;
-    gap: 20px;
-  }
-
-  &__next-button{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
-    animation: up-and-down 2s ease-in-out infinite;
-    .expand-icon{
-      font-size: 3.5rem;
-      @media screen and (max-width: 560px){
-        font-size: 2.5rem;
-      }
-    }
-
-  }
-
-  h1{
-    margin: 0 0 30px 0;
-    font-size: calc(26px + 9vmin);
-    line-height: calc(26px + 8vmin);
+  img{
+    width: 1800px;
+    height: 400px;
   }
 }
-
-
-
-
-.job{
-  &-intro{
-    font-size: calc(10px + 1vmin);
-    line-height: calc(10px + 4vmin);
-  }
-
-  &-name{
-    color: $primary-color;
-  }
-
-  &-shaking-hand{
-    display: inline-block;
-    animation: shaking-hand 3s ease-in-out infinite;
-  }
-
-}
-
-.profile-container{
-  position: relative;
-  margin-right: 80px;
-  margin-left: auto;
-  @media screen and (max-width: 1100px){
-    margin-right: auto;
-  }
-  @media screen and (min-width: 1500px){
-    margin-right: auto;
-  }
-}
-.profile-picture{
-  height: 240px;
-  // height: calc(300px - 1vmin);
-  border: 8px solid $primary-color ;
-  border-radius: 300px;
-
-  @media screen and (max-width: 1024px){
-    height: 250px;
-    border: 5px solid $primary-color;
-  }
-  @media screen and (max-width: 560px){
-    height: 170px;
-  }
-
-}
-
-.profile-available{
-  position: absolute;
-  z-index: 10;
-  top: -60px;
-  left: -50px;
-  //border: 2px solid $primary-color;
-
-  transform: translate(-50%, -50%); /* Centrer parfaitement */
-  height: 380px;
-  animation: rotate 10s linear infinite;
-  @media screen and (max-width: 560px){
-    height: 292px;
-  }
-}
-
-
-
-
-
-
-

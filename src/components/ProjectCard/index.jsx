@@ -1,6 +1,6 @@
 import './styles.scss'
-
-import { Button, Card, CardActions, CardContent, CardMedia, Typography} from "@mui/material";
+import {Button, Card, CardActions, CardContent, CardMedia, Chip, Typography} from "@mui/material";
+import {TAGS_REFERENCES} from "../../utils/constants";
 
 function ProjectCard({project}){
     return (
@@ -17,6 +17,20 @@ function ProjectCard({project}){
                 <Typography variant="body2" color="text.secondary" align={"left"} noWrap={true} sx={{ fontWeight: 300, fontFamily: "Poppins"}}>
                     {project.description}
                 </Typography>
+                <div className={"tags-container"}>
+                    {project.tags &&
+                        project.tags.map(( (tag,indice) => {
+                            const reference = TAGS_REFERENCES.find(element => element.name === tag)
+                            const chipColor = reference ? reference.color : undefined;
+                            return  <Chip
+                                size={"small"}
+                                color={chipColor}
+                                label={tag}
+                                variant="outlined"
+                                key={project.id + "_" + tag + "_" + indice}/>
+                        }))}
+                </div>
+
             </CardContent>
             <CardActions>
                 {project.github ? (
