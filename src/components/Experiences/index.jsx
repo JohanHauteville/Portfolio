@@ -9,7 +9,14 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import { Class, Work } from '@mui/icons-material';
 import {Button} from "@mui/material";
+import {useNavigate} from "react-router-dom";
 function Experiences({short= false}){
+    const navigate = useNavigate();
+
+    function redirect(){
+        navigate("/about#experiences");
+    }
+
     return (
         <section id={"experiences"}>
             <h2>Expériences</h2>
@@ -71,7 +78,8 @@ function Experiences({short= false}){
                 {short === true ? (
                     <>
                         <span className={"experiences-dot"}>.<br/>.<br/>.</span>
-                        <Button variant={'contained'} href={"/about#experiences"} color={"kaki"} fullWidth={false} classes={{root:"button-more"}} sx={{margin:"10px auto",fontWeight:500,fontFamily:"Poppins" ,color: "#fff"}}>More</Button>
+                        <Button variant={'contained'} onClick={redirect} href={"/about#experiences"} color={"kaki"} fullWidth={false} classes={{root:"button-more"}} sx={{margin:"10px auto",fontWeight:500,fontFamily:"Poppins" ,color: "#fff"}}>More</Button>
+
                     </>
 
                 ):(
