@@ -7,7 +7,8 @@ function Footer(){
     return(
         <footer>
             <div className={"footer-links"}>
-                <div className={"footer-link__social"}>
+                <p>Contact me on:</p>
+                <div className={"footer-links__social"}>
                     <a href={SOCIAL_LINK.github} target="_blank" rel="noopener noreferrer">
                         <GitHub sx={{ color: "#fff", fontSize: "40px" }}/>
                     </a>

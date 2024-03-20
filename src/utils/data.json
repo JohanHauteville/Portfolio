@@ -46,7 +46,7 @@
     {
       "id": 4,
       "name": "Argent Bank",
-      "picture":"./assets/img/webSites/argent-bank.png" ,
+      "picture":"../assets/img/webSites/argent-bank.png" ,
       "description": "Projet 13: Utilisez une API pour un compte utilisateur bancaire avec React.",
       "github": "https://github.com/JohanHauteville/Argent-Bank",
       "externalLink": "https://argentbank-jhauteville.netlify.app",
@@ -57,7 +57,7 @@
     {
       "id": 5,
       "name": "SportSee",
-      "picture":"./assets/img/webSites/sportsee.png" ,
+      "picture":"../assets/img/webSites/sportsee.png" ,
       "description": "Projet 12: Développer un tableau de bord d'analytics avec React.",
       "github": "https://github.com/JohanHauteville/sportsee",
       "tags":[

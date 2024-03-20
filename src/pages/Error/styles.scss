@@ -1,0 +1,13 @@
+@import "../../style/variables";
+
+.error-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50svh;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 500;
+  font-size: 2rem;
+  color: $primary-color;
+}

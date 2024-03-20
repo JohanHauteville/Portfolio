@@ -6,7 +6,6 @@
 nav{
   position: absolute;
   top: 10px;
-  //background-color: #fff;
   border-radius: 20px;
   z-index: 20;
 
@@ -22,6 +21,7 @@ nav{
       font-family: "Poppins", "sans-serif";
       font-weight: 400;
       border-bottom: 0 solid transparent;
+
       &::after{
         content: "";
         background-color: #fff;
@@ -43,6 +43,19 @@ nav{
         }
       }
     }
+    .active::after{
+        content: "";
+        background-color: #fff;
+        height: 2px;
+        border-radius: 5px;
+
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        right: 0;
+        transform:  scaleX(1);
+    }
+
     li{
       padding: 0;
       margin: 0 20px;

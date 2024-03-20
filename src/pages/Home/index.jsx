@@ -6,7 +6,6 @@ import Hero from "../../components/Hero";
 import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
 import UpButton from "../../components/UpButton";
-import Header from "../../components/Header";
 
 
 
@@ -14,14 +13,12 @@ import Header from "../../components/Header";
 function Home() {
     return (
         <div className="Home" id={"Home"}>
-            <Header />
-            {/*<Menu />*/}
             <Hero/>
             <UpButton />
             <Skills />
             <Projects />
             <Story />
-            <Experiences />
+            <Experiences short={true} />
         </div>
     );
 }

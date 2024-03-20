@@ -1,17 +1,21 @@
 import './styles.scss'
 import {Button, Card, CardActions, CardContent, CardMedia, Chip, Typography} from "@mui/material";
 import {TAGS_REFERENCES} from "../../utils/constants";
+import {Link} from "react-router-dom";
 
 function ProjectCard({project}){
     return (
         <Card sx={{ maxWidth: 1000 }}>
-            <CardMedia
-                sx={{ height: 160 }}
-                image={project.picture}
-                title={project.name}
-            />
+            <Link to={'/projects/' + project.id}>
+                <CardMedia
+                    sx={{ height: 160 }}
+                    image={project.picture}
+                    title={project.name}
+                />
+            </Link>
+
             <CardContent>
-                <Typography gutterBottom color="kaki" variant="h5" component="div" align={"left"} sx={{ fontWeight: 500, fontFamily: "Poppins", color: "#678d7c"}}>
+                <Typography gutterBottom color="kaki" variant="h5" component="div" align={"left"} noWrap={true} sx={{ fontWeight: 500, fontFamily: "Poppins", color: "#678d7c"}}>
                     {project.name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary" align={"left"} noWrap={true} sx={{ fontWeight: 300, fontFamily: "Poppins"}}>

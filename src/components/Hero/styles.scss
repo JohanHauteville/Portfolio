@@ -64,19 +64,34 @@
       flex-direction: column-reverse;
       justify-content: center;
       margin: 0;
-      height: calc( 100vh - 70px) ;
+      height: calc( 100svh - 70px) ;
       gap: 30px;
     }
 
     @media screen and (max-width: 560px){
       padding-top: 0;
       //margin: 0 0;
-      height: calc(100svh - 120px);
+      //height: calc(100svh - 70px);
       gap: 30px;
+    }
+    @media screen and (max-height: 650px){
+      padding: 0;
+      height: calc(150svh);
     }
   }
 
-
+  @media screen and (max-width: 560px){
+    padding-top: 0;
+    margin: 0 0;
+    height: calc(100svh - 120px);
+    gap: 30px;
+  }
+  @media screen and (max-height: 650px){
+    margin-top: 60px;
+    height: 100svh;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
 
 
 
@@ -86,23 +101,7 @@
     gap: 20px;
   }
 
-  /*&__next-button{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
-    animation: up-and-down 2s ease-in-out infinite;
-    .expand-icon{
-      font-size: 3.5rem;
-      @media screen and (max-width: 560px){
-        font-size: 2.5rem;
-      }
-    }
-
-  }*/
  &__next-button{
-    //position: absolute;
-    bottom: 10px;
     width: 100%;
     text-align: center;
     animation: up-and-down 2s ease-in-out infinite;

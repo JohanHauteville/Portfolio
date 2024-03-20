@@ -9,17 +9,22 @@
   &-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: #fff;
+    min-height: 40vh;
+    background-color: $primary-color;
     }
   &-grid{
     display: grid;
-    background-color: $primary-color;
+    //background-color: $primary-color;
     width: 100vw;
     grid-template-columns: repeat( 4, minmax(250px, 1fr) );
-    min-height: 40vh;
-    align-items: center;
+    //min-height: 40vh;
+    padding: 0 10%;
+    //align-items: center;
     @media screen and (max-width: 1100px){
       grid-template-columns: 1fr 1fr;
+      align-items: initial;
       //width: 90%;
     }
     @media screen and (max-width: 500px){

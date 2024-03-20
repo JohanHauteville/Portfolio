@@ -1,14 +1,28 @@
 import './styles.scss'
-import {Link} from "react-router-dom";
+import { NavLink, useLocation} from "react-router-dom";
 //import {Link} from "@mui/material";
 
 
 function Menu(){
+    const location = useLocation();
+    console.log(location.pathname)
     return <nav>
         <ul>
-            <li><Link to={'/'}>Home</Link></li>
-            <li><Link to={'#'}>Projects</Link></li>
-            <li><Link to={'#'}>About</Link></li>
+            <li>
+                <NavLink to='/'>
+                    Home
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/projects'>
+                    Projects
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/about'>
+                    About
+                </NavLink>
+            </li>
         </ul>
     </nav>
 }
