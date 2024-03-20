@@ -23,7 +23,7 @@ function ProjectsPage(){
         ):(
             <>
                 <Projects />
-                <UpButton />
+                <UpButton page={true}/>
             </>
         )}
 

@@ -9,7 +9,7 @@ function About(){
     return <main className={"about-page"} >
         <Story />
         <Experiences />
-        <UpButton />
+        <UpButton page={true}/>
     </main>
 }
 
