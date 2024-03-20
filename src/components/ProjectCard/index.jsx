@@ -1,7 +1,6 @@
 import './styles.scss'
 import {Button, Card, CardActions, CardContent, CardMedia, Chip, Typography} from "@mui/material";
 import {TAGS_REFERENCES} from "../../utils/constants";
-import {Link} from "react-router-dom";
 
 function ProjectCard({project}){
     return (
