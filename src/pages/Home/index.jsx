@@ -16,7 +16,7 @@ function Home() {
             <Hero/>
             <UpButton />
             <Skills />
-            <Projects />
+            <Projects short={true}/>
             <Story />
             <Experiences short={true} />
         </div>

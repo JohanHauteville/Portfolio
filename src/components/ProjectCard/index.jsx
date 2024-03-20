@@ -6,13 +6,13 @@ import {Link} from "react-router-dom";
 function ProjectCard({project}){
     return (
         <Card sx={{ maxWidth: 1000 }}>
-            <Link to={'/projects/' + project.id}>
+            {/*<Link to={'/projects/' + project.id}>*/}
                 <CardMedia
                     sx={{ height: 160 }}
                     image={project.picture}
                     title={project.name}
                 />
-            </Link>
+            {/*</Link>*/}
 
             <CardContent>
                 <Typography gutterBottom color="kaki" variant="h5" component="div" align={"left"} noWrap={true} sx={{ fontWeight: 500, fontFamily: "Poppins", color: "#678d7c"}}>
