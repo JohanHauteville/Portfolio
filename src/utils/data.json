@@ -4,7 +4,7 @@
     {
       "id": 7,
       "name": "E-commerce",
-      "picture":"../assets/img/webSites/under_construction_02.jpeg" ,
+      "picture":"../assets/img/webSites/under_construction_02-card.jpeg" ,
       "description": "Projet MERN en cours de construction...",
       "tags":[
         "In Progress",  "MongoDB", "ExpressJS", "React", "NodeJS", "Tailwind"
@@ -13,7 +13,7 @@
     {
       "id": 6,
       "name": "Social Network",
-      "picture":"../assets/img/webSites/under_construction_02.jpeg" ,
+      "picture":"../assets/img/webSites/under_construction_02-card.jpeg" ,
       "description": "Projet en cours de construction...",
       "tags":[
         "In Progress",  "MongoDB", "ExpressJS", "React", "NodeJS"
@@ -22,8 +22,13 @@
     {
       "id": 1,
       "name": "Frontend Developper portfolio",
-      "picture":"../assets/img/webSites/portfolio.png" ,
+      "picture":"../assets/img/webSites/portfolio-card.png" ,
+      "screenshot": "../assets/img/webSites/portfolio.png",
       "description": "Création de mon portfolio",
+      "resume": "Mon protfolio est pour moi, un moyen de me présenter, de présenter également mes projets, mes différents canaux pour me contacter. Mais surtout de vous prouver que j'ai les capacités d'apprendre et de monter un projet complet. ",
+      "fonctionalities":[
+        "Création du projet en utilisant Material UI."
+      ] , 
       "github": "https://github.com/JohanHauteville/react-table-component",
       "externalLink": "https://jhauteville.netlify.app/",
       "tags":[
@@ -33,7 +38,7 @@
     {
       "id": 2,
       "name": "Easy react table component",
-      "picture":"../assets/img/webSites/easy-react-table-component.png" ,
+      "picture":"../assets/img/webSites/easy-react-table-component-card.png" ,
       "description": "Création d'une bibliothèque React : Table",
       "github": "https://github.com/JohanHauteville/react-table-component",
       "npmLink": "https://www.npmjs.com/package/easy-react-table-component",
@@ -44,7 +49,7 @@
     {
       "id": 3,
       "name": "Wealth Health",
-      "picture":"../assets/img/webSites/WealthHealth.png" ,
+      "picture":"../assets/img/webSites/WealthHealth-card.png" ,
       "description": "Projet 14: Refonte d'un site RH JQuery vers React",
       "github": "https://github.com/JohanHauteville/WealthHealth",
       "externalLink": "https://wealthhealth-jhauteville.netlify.app/",
@@ -55,7 +60,7 @@
     {
       "id": 4,
       "name": "Argent Bank",
-      "picture":"../assets/img/webSites/argent-bank.png" ,
+      "picture":"../assets/img/webSites/argent-bank-card.png" ,
       "description": "Projet 13: Utilisez une API pour un compte utilisateur bancaire avec React.",
       "github": "https://github.com/JohanHauteville/Argent-Bank",
       "externalLink": "https://argentbank-jhauteville.netlify.app",
@@ -66,13 +71,34 @@
     {
       "id": 5,
       "name": "SportSee",
-      "picture":"../assets/img/webSites/sportsee.png" ,
+      "picture":"../assets/img/webSites/sportsee-card.png" ,
       "description": "Projet 12: Développer un tableau de bord d'analytics avec React.",
       "github": "https://github.com/JohanHauteville/sportsee",
       "tags":[
         "React", "Redux TK"
       ]
 
+    }
+  ],
+  "technologies":[
+    {
+      "picture": "../assets/img/technos/Javascript.png",
+      "name": "JAVASCRIPT"
+    },{
+      "picture": "../assets/img/technos/React.png",
+      "name": "REACT"
+    },{
+      "picture": "../assets/img/technos/Redux.png",
+      "name": "REDUX"
+    },{
+      "picture": "../assets/img/technos/MongoDB.png",
+      "name": "MONGODB"
+    },{
+      "picture": "../assets/img/technos/figma.png",
+      "name": "FIGMA"
+    },{
+      "picture": "../assets/img/technos/Jest.png",
+      "name": "JEST"
     }
   ]
 }

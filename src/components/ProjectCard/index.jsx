@@ -1,4 +1,5 @@
 import "./styles.scss";
+import { Link } from "react-router-dom";
 import {
   Button,
   Card,
@@ -12,14 +13,14 @@ import { TAGS_REFERENCES } from "../../utils/constants";
 
 function ProjectCard({ project }) {
   return (
-    <Card sx={{ maxWidth: 1000 }}>
-      {/*<Link to={'/projects/' + project.id}>*/}
-      <CardMedia
-        sx={{ height: 160 }}
-        image={project.picture}
-        title={project.name}
-      />
-      {/*</Link>*/}
+    <Card sx={{ maxWidth: 1000 }} elevation={10}>
+      <Link to={"/projects/" + project.id}>
+        <CardMedia
+          sx={{ height: 160 }}
+          image={project.picture}
+          title={project.name}
+        />
+      </Link>
 
       <CardContent>
         <Typography

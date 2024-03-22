@@ -1,15 +1,33 @@
-@import '../../style/variables.scss';
+@import "../../style/variables.scss";
 
-.experiences-dot{
+.experiences-dot {
   color: $primary-color;
   font-size: 2rem;
 }
 
-.button-more{
+.button-more {
   width: 130px;
   margin: 0 auto;
 }
 
-.timeline{
+.timeline {
   font-family: "Poppins", "sans-serif";
+}
+
+.experiences-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1200px;
+  &__picture {
+    width: 40%;
+    max-width: 500px;
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+}
+.experiences-justify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

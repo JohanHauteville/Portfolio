@@ -4,6 +4,7 @@ import { GitHub, LinkedIn } from "@mui/icons-material";
 import { SOCIAL_LINK } from "../../utils/constants";
 import { Button, Container, Divider } from "@mui/material";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import logo from "../../assets/img/Logo.png";
 
 function Footer() {
   return (
@@ -17,7 +18,7 @@ function Footer() {
           <Button
             variant="outlined"
             startIcon={<FileDownloadIcon />}
-            color="kaki"
+            color="white"
             sx={{
               fontWeight: 500,
               fontFamily: "Poppins",
@@ -30,13 +31,22 @@ function Footer() {
         <Divider />
         <div className={"footer-links"}>
           <div className={"footer-link__infos"}>
+            <img className="footer-logo" src={logo} alt="logo" />
             <h4>JOHAN HAUTEVILLE</h4>
             <h5>DÉVELOPPEUR FROND-END REACT JS</h5>
             <p>34000 Montpellier, France</p>
             <p>Port.: +33 6 10 69 09 91 </p>
+            <Divider />
+            <div className="copyright">
+              <p>
+                ©2024 Developed by Johan Hauteville. <br />
+                With: React . Material UI
+              </p>
+            </div>
           </div>
+
           <div className={"footer-link__social"}>
-            <h4>Réseaux</h4>
+            <h4>RÉSEAUX</h4>
             <div className="footer-link__social--link">
               <GitHub sx={{ color: "#fff", fontSize: "1.1rem" }} />
               <a
@@ -58,14 +68,6 @@ function Footer() {
               </a>
             </div>
           </div>
-        </div>
-
-        <Divider />
-        <div className="copyright">
-          <p>
-            ©2024 Developed by Johan Hauteville. <br />
-            With: React . Material UI
-          </p>
         </div>
       </Container>
       {/* <div className={"background-bottom"}>

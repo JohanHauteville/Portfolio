@@ -1,24 +1,29 @@
-header{
+header {
   width: 100vw;
   display: flex;
-  //max-height: 800px;
   justify-content: center;
 }
-.background-top{
+
+.header-logo {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  height: 60px;
+}
+
+.background-top {
   max-height: 120px;
   width: 100%;
-  //position: absolute;
-  //top: 0;
   z-index: -1;
   overflow: hidden;
-  //position: absolute;
-  /*display: flex;
-  justify-content: center;*/
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 500px) {
     max-height: 120px;
   }
-  img{
-    width: 1800px;
+  img {
+    width: 100vw;
     height: 400px;
+    @media screen and (max-height: 800px) {
+      width: 1800px;
+    }
   }
 }

@@ -20,7 +20,7 @@ function Projects({ short = false }) {
       <h2>Projects</h2>
       <Grid
         container
-        spacing={{ xs: 3, md: 3 }}
+        spacing={{ xs: 3, md: 4 }}
         columns={{ xs: 1, sm: 1, md: 2, lg: 3 }}
       >
         {projects.map((project) => {
