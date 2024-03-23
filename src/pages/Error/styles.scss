@@ -1,6 +1,6 @@
 @import "../../style/variables";
 
-.error-page{
+.error-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,4 +10,9 @@
   font-weight: 500;
   font-size: 2rem;
   color: $primary-color;
+}
+
+.error-image {
+  width: 60%;
+  max-width: 500px;
 }
