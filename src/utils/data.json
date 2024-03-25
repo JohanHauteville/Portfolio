@@ -33,7 +33,8 @@
       "externalLink": "https://jhauteville.netlify.app/",
       "tags":[
        "React" , "Material UI"
-      ]
+      ],
+      "technologies":[1,2,3,4,5,6]
     },
     {
       "id": 2,
@@ -82,23 +83,40 @@
   ],
   "technologies":[
     {
+      "id":1,
       "picture": "../assets/img/technos/Javascript.png",
-      "name": "JAVASCRIPT"
+      "name": "Javascript"
     },{
+      "id":2,
       "picture": "../assets/img/technos/React.png",
-      "name": "REACT"
+      "name": "React"
     },{
+      "id":3,
       "picture": "../assets/img/technos/Redux.png",
-      "name": "REDUX"
+      "name": "Redux"
     },{
+      "id":4,
       "picture": "../assets/img/technos/MongoDB.png",
-      "name": "MONGODB"
+      "name": "MongoDB"
     },{
+      "id":5,
       "picture": "../assets/img/technos/figma.png",
-      "name": "FIGMA"
+      "name": "Figma"
     },{
+      "id":6,
       "picture": "../assets/img/technos/Jest.png",
-      "name": "JEST"
+      "name": "Jest"
+    }
+  ],
+  "experiences":[
+    {
+      "duration": ["Février 2024","Décembre 2022"],
+      "job": "Formation Développeur d'Application Frontend - React",
+      "content": "OpenClassrooms"
+    },{
+      "duration": ["2023","2018"],
+      "job": "Co-Fondateur: Biscuiterie Kris et Jo",
+      "content": "Gestion de l'entreprise, création graphique, création et gestion du e-commerce."
     }
   ]
 }

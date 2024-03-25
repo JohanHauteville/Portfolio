@@ -1,7 +1,64 @@
+@import "../../style/variables";
+
 .projects-page {
   padding: 0 calc(10px + 8vmin);
-  img {
+  &__picture {
     max-height: 500px;
     width: 100%;
+    margin-top: 50px;
+  }
+}
+.project {
+  font-family: "Poppins", "sans-serif";
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+  &__informations {
+    display: flex;
+    justify-content: space-between;
+    &-details,
+    &-technos {
+      background-color: $primary-color;
+      min-height: 400px;
+      border-radius: 5px;
+      padding: 0 20px;
+      color: #fff;
+    }
+    &-details {
+      width: 68%;
+    }
+    &-technos {
+      width: 20%;
+    }
+  }
+}
+
+.technos {
+  display: flex;
+  flex-direction: column;
+  &__techno {
+    display: flex;
+    align-items: center;
+    &--picture {
+      display: flex;
+      justify-content: center;
+      height: 30px;
+      width: 30px;
+      margin-right: 20px;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.details__row {
+  display: flex;
+  &--title {
+    width: 30%;
+  }
+  &--content {
+    width: 60%;
   }
 }
