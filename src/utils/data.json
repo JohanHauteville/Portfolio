@@ -110,13 +110,71 @@
   ],
   "experiences":[
     {
+      "id":10,
       "duration": ["Février 2024","Décembre 2022"],
-      "job": "Formation Développeur d'Application Frontend - React",
+      "jobName": "Formation Développeur d'Application Frontend - React",
+      "type": "training",
       "content": "OpenClassrooms"
     },{
+      "id":9,
       "duration": ["2023","2018"],
-      "job": "Co-Fondateur: Biscuiterie Kris et Jo",
-      "content": "Gestion de l'entreprise, création graphique, création et gestion du e-commerce."
+      "jobName": "Biscuiterie Kris et Jo",
+      "type": "job",
+      "typeOfContract": "Co-Fondateur:",
+      "content": "Gestion de l'entreprise,\n création graphique, création et gestion du e-commerce."
+    },{
+      "id":8,
+      "duration": ["2017","2015"],
+      "jobName": "Responsable logistique: T.M.A.",
+      "type": "job",
+      "typeOfContract": "CDI, Montpellier:",
+      "content": "Chargé de communication, gestion du parc informatique, responsable de la gestion des stocks."
+    },{
+      "id":7,
+      "duration": ["2015","2014"],
+      "jobName": "Graphiste maquétiste VFX:",
+      "type": "job",
+      "typeOfContract": "Freelance:",
+      "content": "Réalisation de plaquettes, de cartes de visite et de vidéos marketing."
+    },{
+      "id":6,
+      "duration": ["2014","2012"],
+      "jobName": "Animateur 3D / Graphiste à IP. Studio",
+      "type": "job",
+      "typeOfContract": "Co-Fondateur, Montpellier:",
+      "content": "Responsable du pôle création des animations 3D d'un jeu mobile."
+    },{
+      "id":5,
+      "duration": ["2012","2009"],
+      "jobName": "Formation: Graphiste et Animation 3D",
+      "type": "training",
+      "content": "Aries, Pérols"
+    },{
+      "id":4,
+      "duration": ["2009","2008"],
+      "jobName": "Réparateur Informatique: FOCS",
+      "type": "job",
+      "typeOfContract": "Stage, Jacou:",
+      "content": "Maintenance des serveurs informatiques, réparation d'ordinateurs Hardware pour les professionnels."
+    },{
+      "id":3,
+      "duration": ["2008","2007"],
+      "jobName": "Responsable Informatique: Mairie de Bouzigues",
+      "type": "job",
+      "typeOfContract": "Stage, Bouzigues:",
+      "content": "Création et maintenance du réseau comprenant software et hardware. Création de cours d'informatique pour les employés"
+    },{
+      "id":2,
+      "duration": ["2009","2006"],
+      "jobName": "Brevet de Technicien Supérieur Informatique et Réseaux",
+      "type": "training",
+      "content": "Lycée Jean Mermoz, Montpellier"
+    },{
+      "id":1,
+      "duration": ["2006"],
+      "jobName": "Baccalauréat Sciences et Technologies Industrielles génie Electronique",
+      "type": "training",
+      "content": "Lycée Joliot Curie, Sète"
     }
   ]
 }
