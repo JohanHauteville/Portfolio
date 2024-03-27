@@ -10,6 +10,8 @@ import ProjectsPage from "./pages/Projects";
 import Footer from "./components/Footer";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Header from "./components/Header";
+import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
 
 let theme = createTheme({
   palette: {
@@ -35,7 +37,9 @@ root.render(
           <Route path={"/"} element={<Home />} />
           <Route path={"/projects/:id"} element={<ProjectsPage />} />
           <Route path={"/projects"} element={<ProjectsPage />} />
+          <Route path={"/skills"} element={<Skills />} />
           <Route path={"/about"} element={<About />} />
+          <Route path={"/contact"} element={<Contact />} />
           <Route path={"/*"} element={<Error />} />
         </Routes>
         <Footer />

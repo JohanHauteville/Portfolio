@@ -81,11 +81,41 @@
 
     }
   ],
+  "hardSkills":[
+    {
+      "title": "Frontend",
+      "techno": [1,2,3,6]
+    },{
+      "title": "Backend",
+      "techno": [12,13,4]
+    },{
+      "title": "UI / UX",
+      "techno": [9,5,16,17]
+    }
+  ],
+  "softSkills": [
+    {
+      "name": "Curieux",
+      "description": ""
+    },{
+      "name": "Créatif",
+      "description": ""
+    },{
+      "name": "Autonome",
+      "description": ""
+    },{
+      "name": "Communicatif",
+      "description": ""
+    },{
+      "name": "Résilient",
+      "description": ""
+    }
+  ],
   "technologies":[
     {
       "id":1,
       "picture": "../assets/img/technos/Javascript.png",
-      "name": "Javascript"
+      "name": "JavaScript"
     },{
       "id":2,
       "picture": "../assets/img/technos/React.png",
@@ -106,6 +136,50 @@
       "id":6,
       "picture": "../assets/img/technos/Jest.png",
       "name": "Jest"
+    },{
+      "id":7,
+      "picture": "../assets/img/technos/HTML5.png",
+      "name": "Html"
+    },{
+      "id":8,
+      "picture": "../assets/img/technos/CSS.png",
+      "name": "Css"
+    },{
+      "id":9,
+      "picture": "../assets/img/technos/Sass.png",
+      "name": "Sass"
+    },{
+      "id":10,
+      "picture": "../assets/img/technos/StyledComponents.png",
+      "name": "Styled Components"
+    },{
+      "id":11,
+      "picture": "../assets/img/technos/Typescript.png",
+      "name": "TypeScript"
+    },{
+      "id":12,
+      "picture": "../assets/img/technos/node.png",
+      "name": "NodeJS"
+    },{
+      "id":13,
+      "picture": "../assets/img/technos/express.png",
+      "name": "ExpressJS"
+    },{
+      "id":14,
+      "picture": "../assets/img/technos/Spring.png",
+      "name": "Java Spring"
+    },{
+      "id":15,
+      "picture": "../assets/img/technos/Angular.png",
+      "name": "Angular"
+    },{
+      "id":16,
+      "picture": "../assets/img/technos/adobe.png",
+      "name": "Suite Adobe"
+    },{
+      "id":17,
+      "picture": "../assets/img/technos/Maya.png",
+      "name": "Maya"
     }
   ],
   "experiences":[

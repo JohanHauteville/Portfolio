@@ -1,0 +1,27 @@
+@import "../../style/variables";
+
+.skills-page {
+  padding: 0 calc(10px + 8vmin);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  &__sections {
+    width: 30%;
+    border-radius: 5px;
+    background-color: lighten($primary-color, 8);
+    text-align: center;
+
+    &--picture {
+      max-height: 80px;
+      //   margin-left: auto;
+      //   margin-right: auto;
+    }
+  }
+}
