@@ -45,7 +45,7 @@ header {
   img {
     width: 100vw;
     height: 400px;
-    @media screen and (max-height: 800px) {
+    @media screen and (max-width: 800px) {
       width: 1800px;
     }
   }
