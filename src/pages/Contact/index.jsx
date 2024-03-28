@@ -29,7 +29,8 @@ function Contact() {
         .sendForm(
           process.env.REACT_APP_EMAILJS_SERVICE_ID.toString(),
           process.env.REACT_APP_EMAILJS_TEMPLATE_CONTACT,
-          "#contact-form"
+          "#contact-form",
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY.toString()
         )
         .then((response) => {
           console.log("SUCCESS!", response.status, response.text);
