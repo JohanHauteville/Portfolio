@@ -13,22 +13,22 @@ import {
 } from "@mui/material";
 
 function Contact() {
-  console.log("public key: " + process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
+  // console.log("public key: " + process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
   emailjs.init({
     publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY.toString(),
   });
-  console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
+  // console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log("checkValidity:" + event.target.checkValidity());
+    // console.log("checkValidity:" + event.target.checkValidity());
     if (event.target.checkValidity()) {
       emailjs
         .sendForm(
           process.env.REACT_APP_EMAILJS_SERVICE_ID.toString(),
-          process.env.REACT_APP_EMAILJS_TEMPLATE_CONTACT,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_CONTACT.toString(),
           "#contact-form",
           process.env.REACT_APP_EMAILJS_PUBLIC_KEY.toString()
         )
