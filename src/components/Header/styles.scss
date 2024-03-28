@@ -1,7 +1,7 @@
 header {
   //width: 100vw;
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
 }
 
 .header-logo {
@@ -9,6 +9,29 @@ header {
   left: 5%;
   top: 0;
   height: 60px;
+}
+.header {
+  &__logo {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    height: 60px;
+  }
+  &__menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 740px) {
+      display: none;
+    }
+    &--mobile {
+      display: none;
+
+      @media screen and (max-width: 740px) {
+        display: block;
+      }
+    }
+  }
 }
 
 .background-top {

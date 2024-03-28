@@ -1,8 +1,9 @@
-
-.about-page{
+.about-page {
   padding: 0 calc(10px + 8vmin);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-
+}
+.about-picture {
+  max-height: 500px;
 }

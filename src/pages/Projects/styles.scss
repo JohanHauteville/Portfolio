@@ -1,7 +1,10 @@
 @import "../../style/variables";
 
 .projects-page {
-  padding: 0 calc(10px + 8vmin);
+  // padding: 0 calc(10px + 8vmin);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   &__picture {
     max-height: 500px;
     width: 100%;
@@ -86,4 +89,8 @@
   &__content {
     font-weight: 200;
   }
+}
+
+.projects-picture {
+  max-height: 500px;
 }

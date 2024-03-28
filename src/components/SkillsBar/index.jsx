@@ -13,13 +13,13 @@ function SkillsBar({ numberOfSkills = 6 }) {
               container
               rowSpacing={3}
               columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-              sx={{ width: "50px", marginTop: "10px" }}
+              sx={{ width: "50px", marginTop: "10px", marginBottom: "10px" }}
             >
               {data.technologies.slice(0, numberOfSkills).map((techno) => {
                 return (
                   <Grid
                     item
-                    xs={12}
+                    xs={6}
                     sm={6}
                     md={4}
                     lg={2}

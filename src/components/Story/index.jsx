@@ -3,7 +3,7 @@ import "./styles.scss";
 function Story() {
   return (
     <section id={"about-me"} className="story">
-      <h2>Story</h2>
+      <h2>Parcours</h2>
       <div className={"story__description"}>
         Enthousiaste du développement technologique depuis l'obtention de mon
         diplôme de{" "}
